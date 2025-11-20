@@ -2,6 +2,8 @@ import Hero from './components/Hero'
 import Services from './components/Services'
 import Portfolio from './components/Portfolio'
 import Workflow from './components/Workflow'
+import AutomationFlow from './components/AutomationFlow'
+import Pricing from './components/Pricing'
 import Contact from './components/Contact'
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
           <nav className="hidden sm:flex items-center gap-6 text-sm text-blue-200/80">
             <a href="#services" className="hover:text-white">Services</a>
             <a href="#portfolio" className="hover:text-white">Portfolio</a>
+            <a href="#automation" className="hover:text-white">Automation</a>
+            <a href="#pricing" className="hover:text-white">Pricing</a>
             <a href="#contact" className="hover:text-white">Contact</a>
           </nav>
           <a href="#contact" className="px-4 py-2 rounded-lg bg-blue-600 hover:bg-blue-500 text-white text-sm font-medium">Request Demo</a>
@@ -25,6 +29,8 @@ function App() {
         <Services />
         <Portfolio />
         <Workflow />
+        <AutomationFlow />
+        <Pricing />
         <Contact />
       </main>
 
@@ -34,6 +40,8 @@ function App() {
             <a href="#top" className="hover:text-white">Home</a>
             <a href="#portfolio" className="hover:text-white">Portfolio</a>
             <a href="#services" className="hover:text-white">Services</a>
+            <a href="#automation" className="hover:text-white">Automation</a>
+            <a href="#pricing" className="hover:text-white">Pricing</a>
             <a href="#contact" className="hover:text-white">Contact</a>
           </div>
           <p>© 2025 Porter Robertson. All rights reserved.</p>
