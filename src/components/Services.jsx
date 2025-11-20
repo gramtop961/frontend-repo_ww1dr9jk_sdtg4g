@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Sparkles, Rocket, Smartphone, Gauge, Settings, Search, Bot, Calendar, Mail, Workflow } from 'lucide-react'
+import { Sparkles, Rocket, Smartphone, Gauge, Settings, Search, Bot, Calendar, Mail } from 'lucide-react'
 
 const services = [
   { title: 'Website design', icon: Sparkles, desc: 'Clean, modern designs with storytelling and motion.' },
